@@ -1,5 +1,3 @@
-/** @pragma content raw */
-/** @globals WAIT, console */
 
 var FLOWCONTROL = (function() {
         var module = {};

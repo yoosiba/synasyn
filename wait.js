@@ -1,5 +1,3 @@
-/** @pragma content raw */
-/** @globals window, console */
 
 var WAIT = (function() {
         var module = {};
@@ -40,7 +38,7 @@ var WAIT = (function() {
             this.now = function() {
                 that.intervalID = window.setInterval(stopCondition, that.checkTimeStep);
                 that.timeoutID = window.setTimeout(forceStopInterval, that.waitTimeOut);
-                log("started wait with stepID " + that.intervalID + " and timeoutID " + that.timeoutID)
+                log("started wait with stepID " + that.intervalID + " and timeoutID " + that.timeoutID);
             };
         };
 
@@ -85,7 +83,7 @@ var WAIT = (function() {
             this.now = function() {
                 that.intervalID = window.setInterval(stopCondition, that.checkTimeStep);
                 that.timeoutID = window.setTimeout(forceStopInterval, that.waitTimeOut);
-                log("started wait with stepID " + that.intervalID + " and timeoutID " + that.timeoutID)
+                log("started wait with stepID " + that.intervalID + " and timeoutID " + that.timeoutID);
             };
         };
 
