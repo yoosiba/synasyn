@@ -3,3 +3,12 @@ This collection of small JS scripts that allow you to run some of your code sync
 Wait.js is module that allows you to wait with given timeout and check-step for given condition to be true, before executing given action.
 
 FlowControll.js module allows you to chain series of commands to be executed one after another, while executing everything in asynchronous way.
+
+
+
+
+Source code can be found on:
+http://github.com/yoosiba/synasyn
+http://code.google.com/p/synasyn/
+
+code on both places will be synchronized
