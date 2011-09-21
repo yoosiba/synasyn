@@ -2,7 +2,7 @@
 /** @globals window, console */
 
 var WAIT = (function() {
-
+        var module = {};
         module.Wait = function(predicate, predicate_arguments, action, id) {
             this.intervalID = null;
             this.timeoutID = null;

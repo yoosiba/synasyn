@@ -2,7 +2,7 @@
 /** @globals WAIT, console */
 
 var FLOWCONTROL = (function() {
-
+        var module = {};
         module.CommandLink = function(action, action_arguments, predicate, predicate_arguments,  callback, id) {
             this.action = action;
             this.actionArguments = action_arguments;
