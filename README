@@ -1,0 +1,5 @@
+This collection of small JS scripts that allow you to run some of your code synchronously but in asynchronous way for all other code.
+
+Wait.js is module that allows you to wait with given timeout and check-step for given condition to be true, before executing given action.
+
+FlowControll.js module allows you to chain series of commands to be executed one after another, while executing everything in asynchronous way.
